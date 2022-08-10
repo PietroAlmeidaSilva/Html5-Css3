@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudoclasses</title>
+    <style>
+        #classes > span{
+            display: none;
+        }
+        #classes:hover > span{
+            display: block;
+        }
+
+    </style>
+</head>
+<body>
+    <h1 id="classes"><em>Pseudoclasses</em> <span style="font-size: 10px">Sobre como escondider o texto</span></h1>
+    <h2>Como colocar o texto escondido <br>
+    <code><pre><abbr title="p que está dentro do h1">h1 > p</abbr>{
+        display: <abbr title="esconda">none</abbr>;
+    } <hr>
+    h1:<abbr title="Significa passe o mouse em cima">hover</abbr> > p{
+        display: <abbr title="Apareça">block</abbr>;
+    }</pre></code></h2><hr>
+    <h1 id="elementos"><em>Pseudoelementos</em></h1>
+    <p>Todos os seletores personalizados<br></p>
+    <p>
+        <ul>
+         <li> # = id
+         <li> . = class
+         <li> : = pseudo-classes
+         <li> :: = pseudo-elementos
+         <li> > = clildren
+        </ul>
+    </p>
+
+</body>
+</html>

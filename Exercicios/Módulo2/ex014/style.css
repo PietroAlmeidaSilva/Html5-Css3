@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2? family= Source+Sans+Pro:wght@200 & display=swap');
+body{
+    font-family: Arial, Helvetica, sans-serif;/*Familia da fonte*/
+    /*font-size: 1em;
+    /*Tamanho da fonte*/
+    /*16px geralmente é igual a 1em*/
+    /*sempre será melhor usar px ou em nos seus sites*/
+   /*font-style: normal;
+   /*Estilo da fonte*/
+   /*font-weight: lighter;*/
+   /*peso da fonte*/
+   /*Para simplificar podemos colocar esses quatro estilos só ne um comando font: style --> weight --> Size --> Family Exemplo abaixo: */
+   font: normal lighter 1em Source Sans Pro;
+}
+h1{
+    text-align: center;
+}
+p{
+    text-align: justify;
+    text-indent: 10px;
+}

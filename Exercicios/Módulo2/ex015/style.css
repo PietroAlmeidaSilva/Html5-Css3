@@ -1,0 +1,10 @@
+@charset "UTF-8";
+h2#id{
+    text-align: center;
+}
+h2#class{
+    text-align: center;
+}
+code{
+    color: blue;
+}
