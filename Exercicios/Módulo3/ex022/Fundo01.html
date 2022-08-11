@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens de Fundo</title>
+    <style>
+        body{
+            background-image: url("Imagens/planodefundo1.jpg");
+        }
+        .Quadrado{
+            border:1px solid black;
+            height: 325px;
+            width: 325px;
+            display: inline-block;
+            border-radius: 15px;
+        }
+        #q1{
+            background-color: skyblue;
+        }
+        #q2{
+            background-image: linear-gradient(to top,blue,red);
+        }
+        #q3{
+            background-image: url("Imagens/fundodeflor.png");
+        }
+    </style>
+</head>
+<body>
+    <div class="Quadrado" id="q1"></div>
+    <div class="Quadrado" id="q2"></div>
+    <div class="Quadrado" id="q3"></div>
+</body>
+</html>
