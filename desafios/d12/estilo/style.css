@@ -42,6 +42,9 @@ section{
     font-family: var(--Fonte3);
     font-size: 3.5vh;
 }
+section > p {
+    padding-bottom: 1em;
+}
 .normal{
     background-color: white;
     color: black;
@@ -49,10 +52,27 @@ section{
 .imagem{
     background-color: rgb(100, 100, 100);
     color: white;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.250);
+}
+#img1{
+    background-image: url("../imagens/joaninhaemcimadaflor.png");
+    background-position: right top;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#img2{
+    max-height: 700px;
+    background-image: url("../imagens/livro.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
 }
 .imagem > p{
     background-color: rgba(0, 0, 0, 0.250);
-    max-width: 400px;
+    width: 400px;
+    text-shadow: 1px 1px 0px black;
 }
 footer{
     background-color: black;
