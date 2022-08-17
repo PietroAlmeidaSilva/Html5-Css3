@@ -1,11 +1,11 @@
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2? family= DynaPuff & display=swap');
-@import url('https://fonts.googleapis.com/css2? family= DynaPuff & family= Roboto+Condensed & display=swap');
 *{
     margin: 0px;
     padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 html, body{
+    font-family: var(--Fonte1);
     min-height: 100vh;
     background-color: darkgray;
 }
@@ -15,8 +15,10 @@ header{
     text-align: center;
 }
 header > h1{
+    font-family: var(--Fonte2);
     padding-top: 30px;
     font-variant: small-caps;
+    font-size: 10vh;
 }
 header > p{
     padding-bottom: 30px;
@@ -32,9 +34,30 @@ header a:hover,footer a:hover{
     color: black;
     border-radius: 5px;
 }
+section{
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    line-height: 2em;
+    font-family: var(--Fonte3);
+    font-size: 3.5vh;
+}
+.normal{
+    background-color: white;
+    color: black;
+}
+.imagem{
+    background-color: rgb(100, 100, 100);
+    color: white;
+}
+.imagem > p{
+    background-color: rgba(0, 0, 0, 0.250);
+    max-width: 400px;
+}
 footer{
     background-color: black;
     text-align: center;
     color: white;
     padding: 10px;
+    font-size: 2.5vh;
 }
