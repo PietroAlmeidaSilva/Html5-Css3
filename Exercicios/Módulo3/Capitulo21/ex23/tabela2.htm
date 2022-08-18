@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            width: 300px;
+            text-align: center;
+            border-collapse: collapse;            
+            position: relative;
+        }
+        thead{
+            background-color: rgb(100, 100, 100);
+            color: white;
+        }
+        thead > tr > th{
+            position: sticky;
+            top: -1px;
+            background-color: rgb(100, 100, 100);
+        }
+        tbody:nth-child(add){
+            background-color: white;
+        }
+        tbody > tr:nth-child(even){
+            background-color: lightgray;
+        }
+        td,th{
+            border: 1px solid black;
+        }
+        #num{
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Acre</td>
+                <td id="num">795 145</td>
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td id="num">3 327 551</td>
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td id="num">756 500</td>
+            </tr>
+            <tr>
+                <td>Amazonas</td>
+                <td id="num">15 150 143</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td id="num">15 150 143</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td id="num">8 867 448</td>
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td id="num">2 867 869</td>
+            </tr>
+            <tr>
+                <td>Espirito Santo</td>
+                <td id="num">3 894 899</td>
+            </tr>
+            <tr>
+                <td>Goias</td>
+                <td id="num">6 551 322</td>
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td id="num">6 861 924</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total de poulação</td>
+                <td id="num">000 000 000</td>
+            </tr>
+        </tfoot>
+    </table>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae commodi unde tenetur nulla sunt corrupti exercitationem hic suscipit qui, libero, ipsam atque quisquam veniam quidem reprehenderit voluptatibus quam? Deleniti, cumque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae commodi unde tenetur nulla sunt corrupti exercitationem hic suscipit qui, libero, ipsam atque quisquam veniam quidem reprehenderit voluptatibus quam? Deleniti, cumque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae commodi unde tenetur nulla sunt corrupti exercitationem hic suscipit qui, libero, ipsam atque quisquam veniam quidem reprehenderit voluptatibus quam? Deleniti, cumque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae commodi unde tenetur nulla sunt corrupti exercitationem hic suscipit qui, libero, ipsam atque quisquam veniam quidem reprehenderit voluptatibus quam? Deleniti, cumque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae commodi unde tenetur nulla sunt corrupti exercitationem hic suscipit qui, libero, ipsam atque quisquam veniam quidem reprehenderit voluptatibus quam? Deleniti, cumque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae commodi unde tenetur nulla sunt corrupti exercitationem hic suscipit qui, libero, ipsam atque quisquam veniam quidem reprehenderit voluptatibus quam? Deleniti, cumque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae commodi unde tenetur nulla sunt corrupti exercitationem hic suscipit qui, libero, ipsam atque quisquam veniam quidem reprehenderit voluptatibus quam? Deleniti, cumque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae commodi unde tenetur nulla sunt corrupti exercitationem hic suscipit qui, libero, ipsam atque quisquam veniam quidem reprehenderit voluptatibus quam? Deleniti, cumque.Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae commodi unde tenetur nulla sunt corrupti exercitationem hic suscipit qui, libero, ipsam atque quisquam veniam quidem reprehenderit voluptatibus quam? Deleniti, cumque.</p>
+</body>
+</html>
