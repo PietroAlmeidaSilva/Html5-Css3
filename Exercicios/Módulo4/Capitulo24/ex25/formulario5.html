@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1>Exemplo de formulário</h1>
+    <form action="cadastro.php" method="post">
+        <fieldset>
+            <legend>Gênero</legend>
+            <input type="radio" name="gen" id="Gen" value="M" checked>
+            <label for="Gen">Masculino</label>
+            <br>
+            <input type="radio" name="gen" id="Gen" value="F">
+            <label for="Gen">Feminino</label>
+        </fieldset>
+        <br>
+        <fieldset>
+            <legend>Esportes</legend>
+            <input type="checkbox" name="tdm" id="Tdm" checked><label for="Tdm">Tênis de mesa</label><br>
+            <input type="checkbox" name="fut" id="Fut" checked><label for="Fut">Futebol</label><br>
+            <input type="checkbox" name="bas" id="Bas"><label for="Bas">Basquete</label><br>
+            <input type="checkbox" name="vol" id="Vol"><label for="Vol">Volei</label><br>
+        </fieldset>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </form>
+</body>
+</html>
