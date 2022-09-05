@@ -8,14 +8,51 @@
     Telas grandes: acima de 1201px
 Atualização mais recente em 2022*/
 @media print /*impressão*/{
+    *{
+        font-family: 'Courier New', Courier, monospace;
+    }
+    body{
+        background-image: url(../imagens/back-print.jpg);/*Inútil*/
+    }
+    main > h1{
+        text-shadow: none;
+        color: black;
+        border: 2px dashed black;
+    }
+    #phone{display: none;}
+    #tablet{display: none;}
+    #print{display: block;}
+    #pc{display: none;}
+    #tv{display: none;}
 
 }
 @media screen and (min-width:769px) and (max-width:1024px){
-
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    #phone{display: none;}
+    #tablet{display: block;}
+    #print{display: none;}
+    #pc{display: none;}
+    #tv{display: none;}
 }
 @media screen and (min-width:1025px) and (max-width:1200px){
-
+    body{
+        background-image: url(../imagens/back-pc.jpg);
+    }
+    #phone{display: none;}
+    #tablet{display: none;}
+    #print{display: none;}
+    #pc{display: block;}
+    #tv{display: none;}
 }
 @media screen and (min-width:1201px){
-
+    body{
+        background-image: url(../imagens/back-tablet.jpg);
+    }
+    #phone{display: none;}
+    #tablet{display: block;}
+    #print{display: none;}
+    #pc{display: none;}
+    #tv{display: none;}
 }
