@@ -1,0 +1,21 @@
+@charset "UTF-8";
+/*Outras meidas*/
+/*Typical Device Breakpoints
+    Dispositivos Móveis: 320px até 480px
+    IPads e Tablets: 481px até 768px
+    Laptop: 769px até 1024px
+    Desktop: 1025px até 1200px
+    Telas grandes: acima de 1201px
+Atualização mais recente em 2022*/
+@media print /*impressão*/{
+
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+
+}
+@media screen and (min-width:1025px) and (max-width:1200px){
+
+}
+@media screen and (min-width:1201px){
+
+}
